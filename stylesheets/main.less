@@ -331,7 +331,10 @@ nav .button-collapse {
   }
   a,
   .rss-title {
-    color: green !important;
+    color: #fff !important;
+  }
+  .dataTableNext, .dataTablePrevious {
+    color: green;
   }
   nav {
     background: #11111a !important;
@@ -394,8 +397,25 @@ nav .button-collapse {
     color: #fff;
     border-bottom: 1px solid #000 !important;
   }
+  .dataTableControls .dataTableAction,
+  .datatableRelatedReports span,
+  .dataTablePages,
+  table.dataTable .dataTableRowActions a .rowActionIcon {
+    color: #fff !important;
+  }
 
-  .sparkline img {
+  .UserCountryMap-overlay .content, .UserCountryMap-tooltip .content {
+    background: transparent;  
+  }
+
+  .sparkline img,
+  .ratefeature .dislike-icon, .ratefeature .like-icon,
+  .theWidgetContent .card .card-content table.dataTable img, table.dataTable img {
     filter: invert(100%);
+  }
+
+  #multisites .multisites_desc:after {
+    color: #fff;
+    border-top-color: #fff;
   }
 }
