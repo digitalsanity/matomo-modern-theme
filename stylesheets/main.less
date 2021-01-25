@@ -333,6 +333,9 @@ nav .button-collapse {
   .rss-title {
     color: #fff !important;
   }
+  h2 {
+    color: #fff;
+  }
   .dataTableNext, .dataTablePrevious {
     color: green;
   }
@@ -410,12 +413,31 @@ nav .button-collapse {
 
   .sparkline img,
   .ratefeature .dislike-icon, .ratefeature .like-icon,
-  .theWidgetContent .card .card-content table.dataTable img, table.dataTable img {
-    filter: invert(100%);
+  .theWidgetContent .card .card-content table.dataTable img, table.dataTable img,
+  canvas {
+    filter: invert(80%) !important;
   }
 
-  #multisites .multisites_desc:after {
+  #multisites .multisites_desc:after,
+  table.dataTable thead tr th.columnSorted .sortIcon::after {
     color: #fff;
     border-top-color: #fff;
+  }
+  .limitSelection > div .select-wrapper input.select-dropdown {
+    color: #fff !important;
+  }
+  .limitSelection > div .select-wrapper svg.caret {
+    fill: #fff !important;
+  }
+
+
+  .ui-widget.ui-widget-content,
+  .ui-widget-content {
+    background: #11111a !important;
+    color: #fff !important;
+    border: 1px solid #000 !important;
+  }
+  .ui-dialog-title {
+    color: #fff !important;
   }
 }
